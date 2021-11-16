@@ -40,6 +40,7 @@
           class="
             block
             hover:opacity-50
+            is-active
             transition-opacity
             ease-linear
             duration-150
@@ -54,7 +55,7 @@
         <svg
           xmlns="http://www.w3.org/2000/svg"
           id="menu-button"
-          class="h-8 w-8 cursor-pointer md:hidden"
+          class="h-8 w-8 cursor-pointer md:hidden is-active"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -73,7 +74,7 @@
           height="36"
           fill="currentColor"
           id="close"
-          class="bi bi-x hidden md:hidden"
+          class="bi bi-x hidden md:hidden is-active"
           viewBox="0 0 16 16 "
         >
           <path
@@ -101,6 +102,7 @@
                 block
                 md:p-4
                 hover:opacity-50
+                is-active
                 transition-opacity
                 ease-linear
                 duration-150
@@ -117,6 +119,7 @@
                 block
                 md:p-4
                 hover:opacity-50
+                is-active
                 transition-opacity
                 ease-linear
                 duration-150
@@ -145,8 +148,8 @@
           muted
           class="absolute z-10 w-auto min-w-full min-h-full max-w-none"
         >
-          <!--<source src="videos/hero-video.mp4" type="video/mp4" />
-          <source src="videos/hero-video.webm" type="video/webm" />-->
+          <source src="videos/hero-video.mp4" type="video/mp4" />
+          <source src="videos/hero-video.webm" type="video/webm" />
           <p>
             Your browser doesn't support HTML5 video. Here is a
             <a href="videos/hero-video.mp4">link to the video</a> instead.
@@ -176,8 +179,9 @@
               text-sm
               px-6
               py-3
-              hover:bg-transparent hover:text-white
               focus:outline-none
+              hover:bg-transparent hover:text-white
+              is-active
               mr-2
               mb-1
               ease-linear
@@ -200,6 +204,7 @@
               py-3
               hover:bg-transparent hover:text-white
               focus:outline-none
+              is-active
               mr-2
               mb-1
               ease-linear
@@ -220,6 +225,7 @@
                   ml-4
                   block
                   hover:opacity-50
+                  is-active
                   transition-opacity
                   ease-linear
                   duration-150
@@ -239,6 +245,7 @@
                   ml-4
                   block
                   hover:opacity-50
+                  is-active
                   transition-opacity
                   ease-linear
                   duration-150
@@ -258,6 +265,7 @@
                   ml-4
                   block
                   hover:opacity-50
+                  is-active
                   transition-opacity
                   ease-linear
                   duration-150
@@ -275,6 +283,7 @@
                   ml-4
                   block
                   hover:opacity-50
+                  is-active
                   transition-opacity
                   ease-linear
                   duration-150s
@@ -288,12 +297,14 @@
           </ul>
         </nav>
         <a
+          href="#"
           class="
             hidden
             lg:block
             text-white
             uppercase
             hover:opacity-50
+            is-active
             transition-opacity
             ease-linear
             duration-150
@@ -302,6 +313,35 @@
         >
       </div>
     </header>
+    <!--VIDEOS-->
+    <article class="grid justify-items-center text-white" id="watch">
+      <h2 class="text-7xl md:text-8xl uppercase pt-8 pb-14 video__heading">
+        videos
+      </h2>
+      <section class="w-screen md:w-4/5 lg:w-4/6 mb-20">
+        <div class="videoWrapper">
+          <iframe
+            width="560"
+            height="349"
+            src="https://www.youtube.com/embed/UQ1PrJPryTQ"
+            class=""
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="w-screen md:w-4/5 lg:w-4/6 mb-20">
+        <video controls class="w-screen h-auto">
+          <source
+            src="https://res.cloudinary.com/dkwiijqr0/video/upload/v1633624597/BAND/I_Know_Everything_-_Compared_To_The_Universe_tnhtc8.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+    </article>
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
