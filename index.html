@@ -59,20 +59,6 @@
         >
           <use xlink:href="img/sprite.svg#hamburger-menu-svgrepo-com"></use>
         </svg>
-        <!--X to close Hamburger icon-->
-        <!--<svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="36"
-          height="36"
-          fill="currentColor"
-          id="close"
-          class="bi bi-x hidden md:hidden is-active"
-          viewBox="0 0 16 16 "
-        >
-          <path
-            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-          />
-        </svg>-->
         <svg id="close" class="bi bi-x hidden md:hidden is-active" fill="#fff">
           <use xlink:href="img/sprite.svg#hamburger-menu-svgrepo-com"></use>
         </svg>
@@ -346,16 +332,26 @@
     </article>
     <!--LISTEN-->
     <section
-      class="grid justify-items-center w-screen pr-4 sm:pr-0 sm:py-8 listen"
+      class="grid justify-items-center w-screen sm:py-16 listen"
       id="listen"
     >
       <figure class="bg-red-500">
-        <img
-          src="https://res.cloudinary.com/dkwiijqr0/image/upload/v1634817089/BAND/cttu_txfp0t.jpg"
-          alt="compared to the universe"
-          class="block"
-          style="width: 320px; height: 320px"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="img/player-header.webp 1x, img/player-header.webp 2x"
+          />
+          <source
+            type="image/JPG"
+            srcset="img/player-header.JPG 1x, img/player-header.JPG 2x"
+          />
+          <img
+            src="img/player-header.JPG"
+            alt="compared to the universe"
+            class="block w-80 h-auto"
+          />
+        </picture>
+
         <figcaption class="text-white text-center py-5">
           <h2 class="text-lg font-medium pb-1.5">Compared to the Universe</h2>
           <p class="text-sm">Listen to Compared to the Universe´s Music</p>
@@ -380,28 +376,28 @@
         >
           <a
             href="https://open.spotify.com/artist/5IbWUXyXsU1kxCvNXpTNnx"
-            class="text-white"
-            ><img
-              src="https://res.cloudinary.com/dkwiijqr0/image/upload/v1634982564/BAND/Spotify-Logo.wine_onepel.svg"
-              alt="Spotify logo"
-              style="width: 120px; height: 40px"
-          /></a>
-          <button
+            class="text-white is-active"
+          >
+            <svg class="w-28 h-10 is-active">
+              <use xlink:href="img/sprite.svg#Spotify-Logo.wine"></use>
+            </svg>
+          </a>
+          <a
+            href="https://open.spotify.com/artist/5IbWUXyXsU1kxCvNXpTNnx"
             class="
               px-2.5
               mr-3
+              pt-1.5
               button--gray
               ease-linear
               transition-all
               duration-150
+              text-base
+              is-active
             "
           >
-            <a
-              href="https://open.spotify.com/artist/5IbWUXyXsU1kxCvNXpTNnx"
-              class="text-base"
-              >Play</a
-            >
-          </button>
+            Play</a
+          >
         </li>
         <li
           class="
@@ -421,28 +417,28 @@
         >
           <a
             href="https://www.youtube.com/watch?v=UQ1PrJPryTQ"
-            class="text-white"
-            ><img
-              src="https://res.cloudinary.com/dkwiijqr0/image/upload/v1634988346/BAND/YouTube-Logo.wine_rln6jx.svg"
-              alt="youtube logo"
-              style="width: 120px; height: 40px"
-          /></a>
-          <button
+            class="text-white is-active"
+          >
+            <svg class="w-28 h-10 is-active">
+              <use xlink:href="img/sprite.svg#YouTube-Logo.wine"></use>
+            </svg>
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=UQ1PrJPryTQ"
             class="
               px-2.5
               mr-3
+              pt-1.5
               button--gray
               ease-linear
               transition-all
               duration-150
+              text-base
+              is-active
             "
           >
-            <a
-              href="https://www.youtube.com/watch?v=UQ1PrJPryTQ"
-              class="text-base"
-              >Play</a
-            >
-          </button>
+            Play</a
+          >
         </li>
       </ul>
     </section>

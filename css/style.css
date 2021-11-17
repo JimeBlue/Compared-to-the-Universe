@@ -44,3 +44,26 @@ body {
 .video__heading {
   font-family: 'Londrina Outline', cursive;
 }
+
+.button--gray {
+  background: linear gradient(180deg, #fff, #f5f5f5);
+  color: #777;
+  border: 1px solid #e1e1e1;
+  border-radius: 0.4rem;
+}
+
+.button--gray:hover {
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.listen {
+  background: url(../img/listen-bg-blury.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #000;
+  overflow: hidden;
+}
