@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- 🎵 Lovingly made by JimeBlue 🎵-->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,9 +7,309 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/tailwind.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Compared to the Universe</title>
   </head>
   <body>
+    <header class="relative">
+      <nav
+        class="
+          fixed
+          top-0
+          z-50
+          flex flex-wrap
+          items-center
+          justify-between
+          w-full
+          py-4
+          md:py-0
+          px-4
+          text-lg
+          uppercase
+          text-white
+          bg-black
+          xl:bg-transparent
+          font-extrabold
+          navbar
+        "
+        id="navbar"
+      >
+        <!--  Logo -->
+        <a
+          href="#"
+          class="
+            block
+            hover:opacity-50
+            is-active
+            transition-opacity
+            ease-linear
+            duration-150
+            logo
+          "
+        >
+          <h1 class="pt-3 transform -rotate-2 md:pb-3">
+            COMPARED <span class="block ml-3">TO THE</span>UNIVERSE
+          </h1>
+        </a>
+        <!--Hamburger icon-->
+        <svg
+          id="menu-button"
+          class="h-8 w-8 cursor-pointer md:hidden is-active"
+          fill="#fff"
+        >
+          <use xlink:href="img/sprite.svg#hamburger-menu-svgrepo-com"></use>
+        </svg>
+        <!--X to close Hamburger icon-->
+        <!--<svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          fill="currentColor"
+          id="close"
+          class="bi bi-x hidden md:hidden is-active"
+          viewBox="0 0 16 16 "
+        >
+          <path
+            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+          />
+        </svg>-->
+        <svg id="close" class="bi bi-x hidden md:hidden is-active" fill="#fff">
+          <use xlink:href="img/sprite.svg#hamburger-menu-svgrepo-com"></use>
+        </svg>
+        <!-- Navigation List -->
+        <ul
+          class="
+            hidden
+            w-full
+            pt-5
+            md-pt-0 md:flex md:items-center md:justify-between md:w-auto
+            navbar
+          "
+          id="menu-list"
+        >
+          <li>
+            <a
+              href="pages/gigs.html"
+              id="gigs-anchor"
+              class="
+                text-center
+                py-2
+                block
+                md:p-4
+                hover:opacity-50
+                is-active
+                transition-opacity
+                ease-linear
+                duration-150
+              "
+              >gigs</a
+            >
+          </li>
+          <li>
+            <a
+              href="#newsletter-singup"
+              class="
+                text-center
+                py-2
+                block
+                md:p-4
+                hover:opacity-50
+                is-active
+                transition-opacity
+                ease-linear
+                duration-150
+              "
+              >Sign up</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="
+          relative
+          flex
+          justify-center
+          items-center
+          h-screen
+          mb-12
+          overflow-hidden
+        "
+        id="video-section"
+      >
+        <video
+          poster="img/poster-CTTU.JPG"
+          autoplay
+          loop
+          muted
+          class="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+        >
+          <source src="videos/hero-video.mp4" type="video/mp4" />
+          <source src="videos/hero-video.webm" type="video/webm" />
+          <p>
+            Your browser doesn't support HTML5 video. Here is a
+            <a href="videos/hero-video.mp4">link to the video</a> instead.
+          </p>
+        </video>
+      </div>
+      <div
+        class="
+          absolute
+          bottom-4
+          z-20
+          min-w-full
+          flex
+          justify-center
+          sm:flex-col sm:items-center
+          lg:grid lg:grid-cols-3 lg:justify-items-center lg:h-28 lg:items-center
+        "
+      >
+        <div class="flex sm:order-1 button-wrapper">
+          <a
+            class="
+              bg-gray-200
+              border border-solid border-gray-200
+              text-black
+              font-bold
+              uppercase
+              text-sm
+              px-6
+              py-3
+              focus:outline-none
+              hover:bg-transparent hover:text-white
+              is-active
+              mr-2
+              mb-1
+              ease-linear
+              transition-all
+              duration-150
+            "
+            href="#watch"
+          >
+            watch
+          </a>
+          <a
+            class="
+              bg-gray-200
+              border border-solid border-gray-200
+              text-black
+              font-bold
+              uppercase
+              text-sm
+              px-6
+              py-3
+              hover:bg-transparent hover:text-white
+              focus:outline-none
+              is-active
+              mr-2
+              mb-1
+              ease-linear
+              transition-all
+              duration-150
+            "
+            href="#listen"
+          >
+            listen
+          </a>
+        </div>
+        <nav class="mt-5 mr-5 sm:order-2 lg:mt-0">
+          <ul class="hidden sm:flex">
+            <li>
+              <a
+                href="#"
+                class="
+                  ml-4
+                  block
+                  hover:opacity-50
+                  is-active
+                  transition-opacity
+                  ease-linear
+                  duration-150
+                "
+              >
+                <svg width="30" height="30" fill="#fff">
+                  <use
+                    xlink:href="img/sprite.svg#spotify-logo-svgrepo-com"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="
+                  ml-4
+                  block
+                  hover:opacity-50
+                  is-active
+                  transition-opacity
+                  ease-linear
+                  duration-150
+                "
+              >
+                <svg width="30" height="30" fill="#fff">
+                  <use
+                    xlink:href="img/sprite.svg#youtube-with-circle-svgrepo-com"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="
+                  ml-4
+                  block
+                  hover:opacity-50
+                  is-active
+                  transition-opacity
+                  ease-linear
+                  duration-150
+                "
+              >
+                <svg width="30" height="30" fill="#fff">
+                  <use xlink:href="img/sprite.svg#instagram-svgrepo-com"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="
+                  ml-4
+                  block
+                  hover:opacity-50
+                  is-active
+                  transition-opacity
+                  ease-linear
+                  duration-150s
+                "
+              >
+                <svg width="30" height="30" fill="#fff">
+                  <use xlink:href="img/sprite.svg#facebook-svgrepo-com"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          href="#"
+          class="
+            hidden
+            lg:block
+            text-white
+            uppercase
+            hover:opacity-50
+            is-active
+            transition-opacity
+            ease-linear
+            duration-150
+          "
+          >Privacy Policy</a
+        >
+      </div>
+    </header>
+    <!--VIDEOS-->
+
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
