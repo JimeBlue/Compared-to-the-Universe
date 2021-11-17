@@ -5,6 +5,12 @@ $(function () {
     }
   });
 
+  /*Toggle navbar mobile*/
+
+  $('#menu-button').click(function () {
+    $('#menu-list').toggleClass('navbar-list-open');
+  });
+
   /*Form Validation with jQuery*/
 
   // Validate name

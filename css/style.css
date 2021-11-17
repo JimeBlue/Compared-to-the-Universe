@@ -24,6 +24,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Toggle navbar mobile*/
+
+@media (max-width: 768px) {
+  .navbar-list {
+    visibility: hidden;
+    transform: translateX(100%);
+    opacity: 0;
+    max-height: 0;
+    transition: 0.2s ease-out;
+  }
+
+  .navbar-list-open {
+    visibility: visible;
+    opacity: 1;
+    max-height: 500px;
+    transform: translateX(0);
+  }
+}
+
 .is-active:active {
   opacity: 0.7;
 }
