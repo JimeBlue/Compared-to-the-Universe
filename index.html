@@ -336,12 +336,22 @@
       id="listen"
     >
       <figure class="bg-red-500">
-        <img
-          src="https://res.cloudinary.com/dkwiijqr0/image/upload/v1634817089/BAND/cttu_txfp0t.jpg"
-          alt="compared to the universe"
-          class="block"
-          style="width: 320px; height: 320px"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="img/player-header.webp 1x, img/player-header.webp 2x"
+          />
+          <source
+            type="image/JPG"
+            srcset="img/player-header.JPG 1x, img/player-header.JPG 2x"
+          />
+          <img
+            src="img/player-header.JPG"
+            alt="compared to the universe"
+            class="block w-80 h-auto"
+          />
+        </picture>
+
         <figcaption class="text-white text-center py-5">
           <h2 class="text-lg font-medium pb-1.5">Compared to the Universe</h2>
           <p class="text-sm">Listen to Compared to the Universe´s Music</p>
