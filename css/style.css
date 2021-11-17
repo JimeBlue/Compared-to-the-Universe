@@ -57,3 +57,13 @@ body {
   border: 1px solid #000;
   color: #fff;
 }
+
+.listen {
+  background: url(../img/listen-bg-blury.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #000;
+  overflow: hidden;
+}
