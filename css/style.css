@@ -9,19 +9,7 @@ body {
   background: #000;
   overflow-x: hidden;
 }
-skip-links {
 
-
-  
-}
-
-skip-links a {
-
-}
-
-skip-links a:focus {
-  top: 0;
-}
 
 .logo {
   /*font-family: 'ZCOOL KuaiLe', cursive;*/
