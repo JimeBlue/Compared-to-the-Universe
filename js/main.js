@@ -8,7 +8,7 @@ $(function () {
   /*Toggle navbar mobile*/
 
   $('#menu-button').click(function () {
-    $('#menu-list').toggleClass('navbar-list-open');
+    $('#menu-list').toggleClass('navbar__list--open');
   });
 
   /*Form Validation with jQuery*/
