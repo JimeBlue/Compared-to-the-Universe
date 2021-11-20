@@ -10,7 +10,8 @@
     <title>GIGS</title>
   </head>
   <body class="bg-black">
-    <!-- NAV -->
+    <div id="nav-placeholder"></div>
+    <!-- NAV 
     <nav
       class="
         fixed
@@ -33,7 +34,7 @@
       "
       id="navbar"
     >
-      <!--  Logo -->
+       Logo 
       <a
         href="/"
         class="
@@ -49,7 +50,7 @@
           COMPARED <span class="block ml-3">TO THE</span>UNIVERSE
         </h1>
       </a>
-      <!--Hamburger icon-->
+     Hamburger icon
       <svg
         xmlns="http://www.w3.org/2000/svg"
         id="menu-button"
@@ -65,7 +66,7 @@
           d="M4 6h16M4 12h16M4 18h16"
         />
       </svg>
-      <!--X to close Hamburger icon-->
+      X to close Hamburger icon
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="36"
@@ -79,7 +80,7 @@
           d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
         />
       </svg>
-      <!-- Navigation List -->
+     Navigation List 
       <ul
         class="
           hidden
@@ -143,7 +144,7 @@
           >
         </li>
       </ul>
-    </nav>
+    </nav>-->
     <!-- GIGS -->
     <section class="text-white uppercase mt-10 pt-8 pb-12" id="gigs">
       <header class="flex justify-center">
@@ -445,6 +446,11 @@
     <script>
       $(function () {
         $('#footer-placeholder').load('../common/footer.html');
+      });
+    </script>
+    <script>
+      $(function () {
+        $('#nav-placeholder').load('../common/navbar.html');
       });
     </script>
   </body>

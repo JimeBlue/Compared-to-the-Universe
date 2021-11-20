@@ -10,7 +10,8 @@
     <title>Newsletter Sign In</title>
   </head>
   <body class="bg-black">
-    <!-- NAV -->
+    <div id="nav-placeholder"></div>
+    <!-- NAV 
     <nav
       class="
         fixed
@@ -33,7 +34,7 @@
       "
       id="navbar"
     >
-      <!--  Logo -->
+     Logo 
       <a
         href="/"
         class="
@@ -50,7 +51,7 @@
           COMPARED <span class="block ml-3">TO THE</span>UNIVERSE
         </h1>
       </a>
-      <!--Hamburger icon-->
+     Hamburger icon
       <svg
         id="menu-button"
         class="h-8 w-8 cursor-pointer md:hidden is-active"
@@ -61,7 +62,7 @@
       <svg id="close" class="bi bi-x hidden md:hidden is-active" fill="#fff">
         <use xlink:href="img/sprite.svg#hamburger-menu-svgrepo-com"></use>
       </svg>
-      <!-- Navigation List -->
+       Navigation List 
       <ul
         class="
           hidden
@@ -126,7 +127,7 @@
           >
         </li>
       </ul>
-    </nav>
+    </nav>-->
     <!--NEWSLETTER-->
     <section
       id="newsletter-singup"
@@ -213,6 +214,11 @@
     <script>
       $(function () {
         $('#footer-placeholder').load('../common/footer.html');
+      });
+    </script>
+    <script>
+      $(function () {
+        $('#nav-placeholder').load('../common/navbar.html');
       });
     </script>
   </body>
