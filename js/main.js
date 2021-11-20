@@ -1,10 +1,4 @@
 $(function () {
-  $('#navbar [href]').each(function () {
-    if (this.href === window.location.href) {
-      $(this).addClass('active:opacity-50');
-    }
-  });
-
   /*Toggle navbar mobile*/
 
   $('#menu-button').click(function () {

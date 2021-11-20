@@ -1,20 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=ZCOOL+KuaiLe&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Knewave&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Zilla+Slab+Highlight:wght@700&display=swap');
+@font-face {
+  font-family: 'opensans';
+  src: url('../fonts/open-sans/opensans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/open-sans/opensans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'zilla_slab_highlightbold';
+  src: url('../fonts/zilla/zillaslabhighlight-bold-webfont.woff2')
+      format('woff2'),
+    url('../fonts/zilla/zillaslabhighlight-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'londrina_outlineregular';
+  src: url('../fonts/londrina-outline/londrinaoutline-regular-webfont.woff2')
+      format('woff2'),
+    url('../fonts/londrina-outline/londrinaoutline-regular-webfont.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'opensans', Arial, Helvetica, sans-serif;
+}
 
 .logo {
-  /*font-family: 'ZCOOL KuaiLe', cursive;*/
-  font-family: 'Knewave', cursive;
   letter-spacing: 2px;
-  font-family: 'Ranchers', cursive;
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'zilla_slab_highlightbold', cursive;
 }
 
 .navbar {
-  /*font-family: 'Nunito Sans', sans-serif;*/
   text-shadow: 0 0 3px #000;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -55,8 +75,9 @@
   height: 100%;
 }
 
-.video__heading {
-  font-family: 'Londrina Outline', cursive;
+.video__heading,
+.gigs__heading {
+  font-family: 'londrina_outlineregular', cursive;
 }
 
 .button--gray {
