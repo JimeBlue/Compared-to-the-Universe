@@ -77,15 +77,15 @@
             href="/"
             id="gigs-anchor"
             class="
-            text-center
-            py-2
-            block
-            md:p-4
-            hover:opacity-50
-            is-active
-            transition-opacity
-            ease-linear
-            duration-150
+              text-center
+              py-2
+              block
+              md:p-4
+              hover:opacity-50
+              is-active
+              transition-opacity
+              ease-linear
+              duration-150
             "
             >home</a
           >
@@ -198,6 +198,7 @@
         </button>
       </form>
     </section>
+    <div id="footer-placeholder"></div>
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -209,5 +210,10 @@
     </script>
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/main.js"></script>
+    <script>
+      $(function () {
+        $('#footer-placeholder').load('../common/footer.html');
+      });
+    </script>
   </body>
 </html>
