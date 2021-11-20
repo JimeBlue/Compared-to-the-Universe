@@ -52,13 +52,35 @@
           </h1>
         </a>
         <!--skip links-->
-     <ul class="text-white underline text-sm text-center">
-      <li><a href="#menu-list" class=" opacity-0 focus:opacity-100">Skip to navigation</a></li>
-      <li><a href="#watch" class=" opacity-0 focus:opacity-100">Skip to watch</a></li>
-      <li><a href="#listen" class=" opacity-0 focus:opacity-100">Skip to listen</a></li>
-      <li><a href="pages/gigs.html" class=" opacity-0 focus:opacity-100">Skip to gigs</a></li>
-      <li><a href="pages/newsletter-signUp.html" class="opacity-0 focus:opacity-100">Skip to newsletter sign up</a></li>
-    </ul>
+        <ul class="text-white underline text-xs text-center hidden sm:block">
+          <li>
+            <a href="#menu-list" class="opacity-0 focus:opacity-100"
+              >Skip to nav</a
+            >
+          </li>
+          <li>
+            <a href="#watch" class="opacity-0 focus:opacity-100"
+              >Skip to watch</a
+            >
+          </li>
+          <li>
+            <a href="#listen" class="opacity-0 focus:opacity-100"
+              >Skip to listen</a
+            >
+          </li>
+          <li>
+            <a href="pages/gigs.html" class="opacity-0 focus:opacity-100"
+              >Skip to gigs</a
+            >
+          </li>
+          <li>
+            <a
+              href="pages/newsletter-signUp.html"
+              class="opacity-0 focus:opacity-100"
+              >Skip to newsletter sign up</a
+            >
+          </li>
+        </ul>
         <!--Hamburger icon-->
         <svg
           id="menu-button"
@@ -68,7 +90,11 @@
           <use xlink:href="img/sprite.svg#hamburger-menu-svgrepo-com"></use>
         </svg>
         <!--Hamburger close icon-->
-        <svg id="close" class="bi bi-x h-8 w-8 cursor-pointer hidden md:hidden is-active" fill="#fff">
+        <svg
+          id="close"
+          class="bi bi-x h-8 w-8 cursor-pointer hidden md:hidden is-active"
+          fill="#fff"
+        >
           <use xlink:href="img/sprite.svg#hamburger-menu-svgrepo-com"></use>
         </svg>
         <!-- Navigation List -->
@@ -81,24 +107,24 @@
           "
           id="menu-list"
         >
-        <li>
-          <a
-            href="/"
-            id="gigs-anchor"
-            class="
-              text-center
-              py-2
-              block
-              md:p-4
-              hover:opacity-50
-              is-active
-              transition-opacity
-              ease-linear
-              duration-150
-            "
-            >home</a
-          >
-        </li>
+          <li>
+            <a
+              href="/"
+              id="gigs-anchor"
+              class="
+                text-center
+                py-2
+                block
+                md:p-4
+                hover:opacity-50
+                is-active
+                transition-opacity
+                ease-linear
+                duration-150
+              "
+              >home</a
+            >
+          </li>
           <li>
             <a
               href="pages/gigs.html"
@@ -478,5 +504,6 @@
     </script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
   </body>
 </html>
