@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/tailwind.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Compared to the Universe</title>
   </head>
   <body class="bg-black overflow-x-hidden">
@@ -348,12 +350,15 @@
     </header>
     <!--VIDEOS-->
     <article class="grid justify-items-center text-white" id="watch">
-      <h2 class="text-7xl md:text-8xl uppercase pt-8 pb-14 video__heading">
+      <h2
+        class="text-7xl md:text-8xl uppercase pt-8 pb-14 video__heading"
+        data-aos="flip-left"
+      >
         videos
       </h2>
       <section class="w-screen md:w-4/5 lg:w-4/6 mb-20">
         <h2 class="text-2xl mb-3 pl-2 md:pl-0">I Know Everthing</h2>
-        <div class="video__wrapper">
+        <div class="video__wrapper" data-aos="fade-right">
           <iframe
             width="560"
             height="349"
@@ -369,7 +374,7 @@
         <h2 class="text-2xl mb-3 pl-2 md:pl-0">
           Olympiastadion Concert Experience
         </h2>
-        <div class="video__wrapper">
+        <div class="video__wrapper" data-aos="fade-left">
           <iframe
             width="560"
             height="349"
@@ -385,6 +390,7 @@
     <!--LISTEN-->
     <section
       class="grid justify-items-center w-screen sm:py-16 listen"
+      data-aos="zoom-in-up"
       id="listen"
     >
       <figure class="bg-red-500">
@@ -516,6 +522,10 @@
       $(function () {
         $('#nav-placeholder').load('common/navbar.html');
       });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
