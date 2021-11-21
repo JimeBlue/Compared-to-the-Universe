@@ -1,4 +1,9 @@
 $(function () {
+  $('#menu-list [href]').each(function () {
+    if (this.href == window.location.href) {
+      $(this).addClass('underline ');
+    }
+  });
   /*Toggle navbar mobile*/
 
   $('#menu-button').click(function () {
