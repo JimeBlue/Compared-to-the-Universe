@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/tailwind.css" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Newsletter Sign In</title>
   </head>
   <body class="bg-black">
@@ -134,7 +135,9 @@
       class="text-white flex flex-col items-center pt-36 newsletter-singup"
     >
       <header class="w-6/12 pt-10">
-        <h2 class="text-left pb-14 text-4xl">NEWSLETTER SIGN UP</h2>
+        <h2 class="text-left pb-14 text-4xl" data-aos="flip-left">
+          NEWSLETTER SIGN UP
+        </h2>
       </header>
       <form class="w-6/12 uppercase font-bold">
         <div class="flex flex-col mb-5">
@@ -220,6 +223,10 @@
       $(function () {
         $('#nav-placeholder').load('../common/navbar.html');
       });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>

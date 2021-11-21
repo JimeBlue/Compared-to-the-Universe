@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/tailwind.css" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>GIGS</title>
   </head>
   <body class="bg-black">
@@ -148,7 +149,12 @@
     <!-- GIGS -->
     <section class="text-white uppercase mt-10 pt-8 pb-12" id="gigs">
       <header class="flex justify-center">
-        <h2 class="text-7xl md:text-8xl pt-28 pb-14 gigs__heading">gigs</h2>
+        <h2
+          class="text-7xl md:text-8xl pt-28 pb-14 gigs__heading"
+          data-aos="flip-left"
+        >
+          gigs
+        </h2>
       </header>
       <table
         class="
@@ -452,6 +458,10 @@
       $(function () {
         $('#nav-placeholder').load('../common/navbar.html');
       });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
