@@ -1,0 +1,23 @@
+{
+  "name": "Compared-to-the-Universe",
+  "version": "1.0.0",
+  "description": "Website for the German band Compared to the Universe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimeBlue/Compared-to-the-Universe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimeBlue/Compared-to-the-Universe/issues"
+  },
+  "homepage": "https://github.com/JimeBlue/Compared-to-the-Universe#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
