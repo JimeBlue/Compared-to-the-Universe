@@ -1,7 +1,7 @@
 $(function () {
   $('#menu-list [href]').each(function () {
     if (this.href == window.location.href) {
-      $(this).addClass('underline ');
+      $(this).addClass('underline');
     }
   });
 
