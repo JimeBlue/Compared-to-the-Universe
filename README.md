@@ -20,7 +20,7 @@ My goal was to was to simulate a professional work environment.
 - Transitions and transforms <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/master/css/style.css#L47-L50"> example code </a>
 - BEM conventions <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/master/css/style.css#L83-L88"> example code </a>
 - Mobel-first workflow <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/index.html#L180-L184"> example code </a>
-- Tailwind css <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/js/main.js#L1-L6 "> example code </a>
+- Tailwind css <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/fa8914277e7ef0c1c130f1cdf139772664e3521a/index.html#L34"> example code </a>
 - Jquery <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/js/main.js#L1-L6"> example code </a>
 - AOS Animate On Scroll Library <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/index.html#L272"> example code </a>
 - Animate.css <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/common/navbar.html#L50"> example code </a>
