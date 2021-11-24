@@ -4,8 +4,30 @@ Final project for the Advanced HTML and CSS course (159251), part of the <a href
 ## How I worked on this project 
 My goal was to was to simulate a professional work environment.
 
-- I used feature branches and Pull Requests: <a href="https://github.com/JimeBlue/Compared-to-the-Universe/tree/f5f3ab69cc99ff677e48d593e364ab0c7084fe37"> navbar pull request </a>
+- I used feature branches and Pull Requests: <a href="https://github.com/JimeBlue/Compared-to-the-Universe/tree/f5f3ab69cc99ff677e48d593e364ab0c7084fe37"> example pull request </a>
 
 ## 	Built with
 
-- Semantic HTML5 markup
+- Semantic HTML5 markup <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/common/footer.html#L13-L30"> example code </a>
+- CSS 3 <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/css/style.css#L96-L104"> example code </a>
+- Flexbox <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/master/index.html#L299-L302"> example code </a>
+- CSS Grid  <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/index.html#L197"> example code </a>
+- Advanced CSS selectors <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/master/common/navbar.html#L147"> example code </a>
+- Transitions and transforms <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/master/css/style.css#L47-L50"> example code </a>
+- BEM conventions <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/master/css/style.css#L83-L88"> example code </a>
+- Mobel-first workflow <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/index.html#L180-L184"> example code </a>
+- Tailwind css <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/js/main.js#L1-L6 "> example code </a>
+- Jquery <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/js/main.js#L1-L6"> example code </a>
+- AOS Animate On Scroll Library <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/index.html#L272"> example code </a>
+- Animate.css <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/common/navbar.html#L50"> example code </a>
+
+## 	Performance
+
+- Image and video compression
+- SVG Sprite <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/common/footer.html#L59"> example code </a>
+- <a href="https://parceljs.org/features/production/"> Parcel </a> for production 
+
+## 	Accesibility
+
+- Skip links  <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/common/navbar.html#L58-L84"> example code </a>
+- Aria label in navbars <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/common/footer.html#L14"> example code </a>
