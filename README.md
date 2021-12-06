@@ -1,9 +1,9 @@
 # Compared-to-the-Universe 
 Website for the German band Compared to the Universe. Final project for the Advanced HTML and CSS course, part of the <a href="https://extension.ucsd.edu/courses-and-programs/front-end-development"> Postgraduate Front End Development Certificate </a> delivered by <a href="https://ucsd.edu/"> the University of California San Diego Extension </a>
 
-Deployed live on <a href="https://compared-to-the-universe.netlify.app/"> https://compared-to-the-universe.netlify.app/</a> . Check out!
+Deployed live on <a href="https://compared-to-the-universe.netlify.app/"> https://compared-to-the-universe.netlify.app/</a> . Check it out!
 
-![Alt text](https://res.cloudinary.com/dvszm3oei/image/upload/v1637748275/CTTU/compared-to-the-universe_tn89cg.jpg?raw=true "Compared to the Universe")
+![CTTU-hero](https://user-images.githubusercontent.com/84801660/144888207-e10d98ac-cd37-4d26-b140-17759c7d5b8b.JPG)
 
 ## How I worked on this project 
 My goal was to was to simulate a professional work environment.
