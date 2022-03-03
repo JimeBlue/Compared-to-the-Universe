@@ -12,7 +12,7 @@ My goal was to was to simulate a professional work environment.
 
 ## 	Built with
 
-- Semantic HTML5 markup <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/common/footer.html#L13-L30"> example code </a>
+- Semantic HTML5 <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/common/footer.html#L13-L30"> example code </a>
 - CSS3 <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/css/style.css#L96-L104"> example code </a>
 - Flexbox <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/master/index.html#L299-L302"> example code </a>
 - CSS Grid  <a href="https://github.com/JimeBlue/Compared-to-the-Universe/blob/756054298d02338e6a740de010e477c7b862d0a4/index.html#L197"> example code </a>
